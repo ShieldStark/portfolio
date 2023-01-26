@@ -7,10 +7,8 @@ const Home =()=>{
     return (
       <div>
         <section>
-          <Navigation></Navigation>
           <Main></Main>
         </section>
-        <Foot></Foot>
       </div>
     );
 };
