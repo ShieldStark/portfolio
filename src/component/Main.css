@@ -1,0 +1,52 @@
+.text-container p:nth-child(1){
+	font-family: calibri;
+	font-weight: bold;
+	color:#6d6d6d;
+	font-size: 22px;
+}
+.text-container p:nth-child(2){
+	font-family: calibri;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color:#FFFFFF;
+	font-size: 60px;
+}
+.text-container p:nth-child(3){
+	font-family: myraid pro regular;
+	color:#6d6d6d;
+	font-size: 30px;
+
+}
+.text-container h3{
+color: #FFFFFF;
+}
+.text-container p{
+	line-height: 0px;
+	margin: 45px 0px 25px;
+
+}
+.text-container{
+	position: absolute;
+	left:13%;
+	top:42%;
+	transform:translate(-13%,42%);
+}
+.text-container button{
+	width:130px;
+	height:42px;
+	border-radius: 10px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 14px;
+	outline: none;
+	margin: 0px 10px;
+}
+.hire-btn{
+	border:2px solid #ff0000;
+	color:#373636;
+}
+.down-cv{
+	background-color: #ff0000;
+	color:#ffffff;
+	border:none;
+}
