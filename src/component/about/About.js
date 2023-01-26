@@ -4,10 +4,10 @@ import {imageC} from './icons/sample4.png';
 import Skill from './skill/Skill';
 const About=()=>{
     return(
-        <div>
-         <Detail/>
-		<Skill/>
-        </div>
+        <>
+            <Detail/>
+		    <Skill/>
+        </>
     );
 };
 export default About;

@@ -4,18 +4,7 @@ ul{
 a{
 	text-decoration:none;
 }
-.hire-btn{
-	border:2px solid #ff0000;
-	color:#373636;
-}
-.down-cv{
-	background-color: #ff0000;
-	color:#ffffff;
-	border:none;
-}
-button:active{
-	transform:scale(1.1);
-}
+
 .model{
 height: 560px;
 position: absolute;

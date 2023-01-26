@@ -4,7 +4,9 @@ import { Outlet } from "react-router-dom";
 const RootLayout=()=>{
     return(<>
         <Navigation/>
+        <main>
         <Outlet/>
+        </main>
         <Foot/>
         </>
     );
