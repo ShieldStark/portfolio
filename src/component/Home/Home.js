@@ -1,7 +1,7 @@
 import homes from './Home.css';
-import Navigation from './Navigation/Navigation.js'
-import Main from './Main/Main.js'
-import Foot from './Foot/Foot.js'
+import Navigation from './navigation/Navigation.js'
+import Main from './main/Main.js'
+import Foot from './foot/Foot.js'
 
 const Home =()=>{
     return (
