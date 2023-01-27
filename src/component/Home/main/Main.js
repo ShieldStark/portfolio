@@ -7,7 +7,7 @@ const Main= ()=>{
         <p>I am a Software Engineer</p>
         <h3>Currently Working at Samsung</h3>
         <button class="hire-btn">Hire me</button>
-        <button class="down-cv">Download CV</button>
+        <button class="down-cv" type='button' onClick="location.href='https://drive.google.com/file/d/1kXxRUN1L9818-psXUS8bMWg4kSlQ3-0Q/view?usp=share_link';">Download CV</button>
       </div>
     );
 };
