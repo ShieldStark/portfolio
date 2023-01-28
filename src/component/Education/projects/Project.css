@@ -1,0 +1,62 @@
+.project-container{
+    width: 70%;
+    height: 250px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    display: flex;
+    margin: 10px auto auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    .project-container img{
+    height: 100px
+    }
+    .project-text{
+    width:550px;
+    }
+    .project-text p:nth-child(1){
+    color: #FF0000;
+    font-family: myraid pro;
+    font-weight:bold;
+    font-size: 23px;
+    }
+    .project-text p:nth-child(2){
+    color: #3e3d3d;
+    font-size: 13px;
+    font-family: myraid pro;
+    font-weight: bold;
+    line-height: 5px;
+    }
+    .project-text p:nth-child(3),
+    .project-text p:nth-child(4){
+    color: #7e7d7d;
+    font-family: calibri;
+    font-size: 16px;
+    }
+    .project-text button{
+    width: 120px;
+    height: 40px;
+    color: #262525;
+    outline: none;
+    font-family: calibri;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+	margin: 0px 10px;
+    
+    
+    }
+    .h1{
+        font-size: 30px;
+        font-weight: bold;
+        color: #ffffff;
+        line-height: 10px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .divi :hover{
+        transform: translate3d(10px,0px,20px);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    }

@@ -1,0 +1,63 @@
+.education-container{
+    width: 80%;
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    display: flex;
+    margin: 10px auto auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    .education-container img{
+    height: 100px
+    }
+    .education-text{
+    width:550px;
+    }
+    .education-text p:nth-child(1){
+    color: #FF0000;
+    font-family: myraid pro;
+    font-weight:bold;
+    font-size: 23px;
+    line-height: 0px;
+    }
+    .education-text p:nth-child(2){
+    color: #3e3d3d;
+    font-size: 13px;
+    font-family: myraid pro;
+    font-weight: bold;
+    line-height: 5px;
+    }
+    .education-text p:nth-child(3),
+    .education-text p:nth-child(4){
+    color: #7e7d7d;
+    font-family: calibri;
+    font-size: 16px;
+    }
+    .education-text button{
+    width: 120px;
+    height: 40px;
+    color: #262525;
+    outline: none;
+    font-family: calibri;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+	margin: 0px 10px;
+    
+    
+    }
+    .education-h1{
+        font-size: 30px;
+        font-weight: bold;
+        color: #ffffff;
+        line-height: 10px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .divi :hover{
+        transform: translate3d(10px,0px,20px);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    }

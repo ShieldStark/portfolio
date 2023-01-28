@@ -7,7 +7,7 @@ const Skill=()=>{
 			<div class="box-1">
 			<span>1</span>
 			<p class="heading">Skills</p>
-			<p class="details">1.C<br/>2.C++<br/>3.JAVA<br/>4.Python<br/>5.SQL<br/>6.HTML<br/>7.CSS<br/>8.React Js<br/>9.Android</p>
+			<p class="details">1.C<br/>2.C++<br/>3.JAVA<br/>4.SQL<br/>5.HTML<br/>6.CSS<br/>7.React Js<br/>8.Android</p>
 			
 			</div>
 			<div class="box-2">
