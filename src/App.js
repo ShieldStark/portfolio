@@ -1,5 +1,5 @@
 import './App.css';
-import Home from './component/home/Home.js';
+import Home from './component/Home/Home.js';
 import About from './component/about/About.js';
 import RootLayout from './component/root';
 import {createBrowserRouter,RouterProvider} from 'react-router-dom';
