@@ -1,5 +1,6 @@
 import mainC from './Main.css'
 const Main= ()=>{
+  console.log("Main.js")
     return(
         <div class="text-container">
         <p>Hello,</p>

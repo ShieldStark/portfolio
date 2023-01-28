@@ -6,6 +6,7 @@ import ImageSlider from './Slider/ImageSlider';
 import { SliderData } from './Slider/SliderData';
 
 const Home =()=>{
+  console.log("Home.js")
     return (
       <div>
         <section>
