@@ -5,10 +5,10 @@ const Navigation=()=>{
         <nav>
 			<a className={navi.logo}></a>
 			<ul>
-				<li><Link to="/" className={navi.active}>Home</Link></li>
-				<li><Link to="/about">About</Link></li>
-				<li><Link to="/contact">Education</Link></li>
-				<li><Link to="/education">Career</Link></li>
+				<li><Link to="/portfolio/" className={navi.active}>Home</Link></li>
+				<li><Link to="/portfolio/about/">About</Link></li>
+				<li><Link to="/portfolio/contact/">Education</Link></li>
+				<li><Link to="/portfolio/education/">Career</Link></li>
 			</ul>
 		</nav>
     );

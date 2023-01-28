@@ -1,11 +1,10 @@
 nav{
 	display:flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	height: 60px;
 	background-color: #ffffff;
 	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
-	padding: 0px 5%
 }
 nav ul{
 	display: flex;
@@ -28,3 +27,23 @@ nav ul li a{
 	color:#2d2a2a;
 	
 }
+@media only screen and (max-width: 768px) {
+    .nav {
+        width: fit-content;
+    }
+    .nav ul{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 498px) {
+    .nav {
+		width: fit-content;
+        overflow-x: scroll;
+    }
+    .nav button {
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+    }
+}
+

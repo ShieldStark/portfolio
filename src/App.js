@@ -7,20 +7,20 @@ import Career from './component/career/Career';
 import Education from './component/Education/Education';
 
 const router=createBrowserRouter([
-  { path:'/',
+  { 
+    path:'/portfolio/',
     element:<RootLayout/>,
     children:[
-      { path:'/',element:<Home/>},
-      { path:'/about',element:<About/>},
-      { path:'/contact',element:<Education/>},
-      { path:'/education',element:<Career></Career>}
+      { path:'/portfolio/',element:<Home/>},
+      { path:'/portfolio/about/',element:<About/>},
+      { path:'/portfolio/contact/',element:<Education/>},
+      { path:'/portfolio/education/',element:<Career></Career>}
     ]
   },
-  
 ]);
 
 function App() {
-  console.log("App.js")
+  console.log("app.js")
   return (
     <RouterProvider router={router}/>
   );

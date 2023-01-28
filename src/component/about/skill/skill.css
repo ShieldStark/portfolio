@@ -88,3 +88,24 @@
     color: #8f8f8f;
     padding-left: 5px;
     }
+    @media only screen and (max-width: 768px) {
+        .services {
+            width: 100%;
+        }
+        .service-text {
+            width: 100%;
+        }
+    }
+    @media only screen and (max-width: 498px) {
+        .service-text {
+            font-size: 12px;
+            overflow-x: scroll;
+            overflow-y:scroll;
+        }
+        .service-text button {
+            width: 80px;
+            height: 30px;
+            font-size: 12px;
+        }
+    }
+    
