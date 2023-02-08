@@ -18,7 +18,7 @@ const Foot=()=>{
             <a href="https://github.com/ShieldStark">
               <img src={github} alt=""></img>
             </a>
-            <a href="mailto:piyushabhiranjan@gmail.com">
+            <a href="mailto:piyushabhiranjan30@gmail.com">
               <img src={gmail} alt=""></img>
             </a>
           </div>
