@@ -3,7 +3,7 @@ import image1 from './icons/I1.jfif'
 import Project from './projects/Project';
 const Education=()=>{
     return(
-        <div className='divi'>
+        <div>
             <div className="education-container">
                 <img src={image1} alt=''/>
                 <div className='education-text'>  

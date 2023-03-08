@@ -5,7 +5,7 @@ import image3 from './icons/I1.jfif'
 import image4 from './icons/I2.png'
 const Career = ()=>{
     return(
-    <div className='divi'>
+    <div >
         <h1 className="h1">Work Experience</h1>
         <div className="container">
             <img src={image1} alt=''/>

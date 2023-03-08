@@ -1,7 +1,7 @@
 import css from './Project.css'
 const Project = ()=>{
     return(
-        <div className='divi'>
+        <div>
             <div className="project-container">
                     <div className='project-text'>  
                     <p>INTRUSION DETECTION SYSTEM</p>

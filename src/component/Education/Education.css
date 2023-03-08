@@ -11,7 +11,7 @@
     align-items: center;
     }
     .education-container img{
-    height: 100px
+    height: 100px;
     }
     .education-text{
     width:550px;
@@ -21,7 +21,8 @@
     font-family: myraid pro;
     font-weight:bold;
     font-size: 23px;
-    line-height: 0px;
+    line-height: 1;
+    padding-top: 10px;
     }
     .education-text p:nth-child(2){
     color: #3e3d3d;
